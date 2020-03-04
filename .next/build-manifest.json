@@ -24,10 +24,6 @@
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
-    ],
-    "/search_sort": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }

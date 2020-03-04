@@ -1,18 +1,12 @@
-import Link from 'next/link';
+import Header from "../components/header.js";
+import Footer from '../components/footer'
 
 export default function Index() {
     return (
         <div>
-            <Link href="/about">
-                <a title="About Page">About</a>
-            </Link>
-            <Link href="/project">
-                <a title="Project Showcase">Projects</a>
-            </Link>
-            <Link href="/search_sort">
-                <a title="Search/Sort">Search and Sort Playground!</a>
-            </Link>
+           <Header></Header>
             <h3>Welcome!</h3>
+            <Footer></Footer>
         </div>
     );
 }
