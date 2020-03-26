@@ -1,25 +1,25 @@
-import Header from "../components/header"
-import Footer from '../components/footer'
+import ContactContent from '../components/contactContent'
 
 export default function Contact(){
     return (
+      <div>
         <div>
-            <Header></Header>
-            <h2>Lets Connect!</h2>
-            <h3>Contact Information</h3>
-            <h5>Email</h5>
-            <p>mail@scottnguyen.xyz</p>
-            <p>ngn.scott@gmail.com</p>
-            <h5>Phone Number</h5>
-            <p>+1(616)780-7123</p>
-            <h5>Github</h5>
-            <p>https://www.github.com/nguyensc</p>
-            <h5>LinkedIn</h5>
-            <p>https://www.linkedin.com/scottnguyen96</p>
-            <h4>Best way to reach me</h4>
-            <p>If the matter is urgent, then a simple text or phone call will be answered the quickest</p>
-            <p>If not then, emails will be responded within 24 hours</p>
-            <Footer></Footer>
+            <h3>So you want to connect?</h3>
+            <p>We'll I will be more than delighted to connect with you! Down below is my contact information
+                and social media handles. The quickest way to contact me is through email as I usually respond
+                within 24 hours.
+            </p>
         </div>
-    )
+        <div>
+            <h5>Email: <p>ngn.scott@gmail.com</p></h5>
+            <h5 href="https://github.com/nguyensc">Github</h5>
+            <h5>Phone Number: +1(616)780-7123</h5>
+            <h5 href="https://linkedin.com/scottnguyen96">Linkedin</h5>
+            <h5 href={Resume}>Resume</h5>
+        </div>
+        <div>
+          <h3>I hope to hear from you soon!</h3>
+        </div>
+    </div>
+  );
 }
