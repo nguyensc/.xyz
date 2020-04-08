@@ -1,34 +1,34 @@
 // config/buttons.js
 
 import React from "react";
-import FontAwesomeIcon from '@fortawesome/fontawesome-free'
+import fortawesome from '@fortawesome/fontawesome-free'
 import {
-  faAddressBook,
-  faCenterCode,
-  faCode,
-  faArchive
+  fasAddressBook,
+  fasCenterCode,
+  fasCode,
+  fasArchive
 } from '@fortawesome/fontawesome-free'
 
 const navButtons = [
   {
     label: "Home",
     path: "/index",
-    icon: <FontAwesomeIcon icon={faCenterCode} />
+    icon: <fortawesome icon={fasCenterCode} />
   },
   {
     label: "About Me",
     path: "/about",
-    icon: <FontAwesomeIcon icon={faCode} />
+    icon: <fortawesome icon={fasCode} />
   },
   {
     label: "My Projects",
     path: "/project",
-    icon: <FontAwesomeIcon icon={faArchive} />
+    icon: <fortawesome icon={fasArchive} />
   },
   {
     label: "Contact",
     path: "/contact",
-    icon: <FontAwesomeIcon icon={faAddressBook} />
+    icon: <fortawesome icon={fasAddressBook} />
   }
 ];
 
